@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+
+body {
+
+    background: linear-gradient(white, gray);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: white;
+}
+
+div{
+    text-align: center;
+}
+
+label {
+    font-weight: bolder;
+}
+
+footer {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5% black;
+    width: fit-content;
+    height: fit-content;
+    background: gray;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: red;
+    color: white;
+    border: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    background-color: lightgray;
+    font-weight: bold;
+}
